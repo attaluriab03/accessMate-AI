@@ -1,7 +1,7 @@
-# A11y Copilot — System Architecture (v0.1)
+# AccessMate — System Architecture (v0.1)
 
 ## 1. Overview
-**A11y Copilot** is a browser extension + web platform that scans webpages for accessibility issues (WCAG/ADA), explains impact in plain English, and optionally auto-generates remediation diffs and GitHub PRs (with tests and a before/after Lighthouse report). The system combines deterministic checks (DOM/CSS rules), computer vision (contrast, OCR), and LLM/RAG pipelines.
+**AccessMate** is a browser extension + web platform that scans webpages for accessibility issues (according to WCAG/ADA guidelines), explains the impact of the issues in plain English, and optionally auto-generates fixes and GitHub PRs (with tests and a before/after report). The system combines deterministic checks (DOM/CSS rules), computer vision (contrast, OCR), and LLM/RAG pipelines.
 
 ### Goals
 - Near‑real‑time a11y feedback during development and QA.
@@ -9,9 +9,9 @@
 - One‑click remediation via auto‑generated PRs + tests + CI audit.
 - Designed for multi-repo, multi-project orgs with role-based access.
 
-### Non‑Goals
-- Replacing expert audits for complex flows, legal interpretations, or assistive tech usability studies.
-- Fixing deep application logic or architecture issues.
+### This extension is NOT meant to:
+- Replace expert audits for complex flows, legal interpretations, or assistive tech usability studies.
+- Fix deep application logic or architecture issues.
 
 ---
 
